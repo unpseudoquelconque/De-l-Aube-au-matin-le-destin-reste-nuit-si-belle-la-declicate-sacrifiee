@@ -60,4 +60,4 @@ Exception: Color string u'c2B27B0' must be 3, 4, 6, or 8 hex digits long.
 Windows-10-10.0.19041
 Ren'Py 7.4.2.1292
 De l Aube au matin le destin reste nuit si belle la declicate sacrifiee 1.0
-Mon Feb  1 21:00:58 2021
+Mon Jun  7 15:55:02 2021
