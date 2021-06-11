@@ -88,7 +88,7 @@ label start:
     "..."
     "I need to find a house."
     "There was that theory that eventually every Soprani living in the same district will eventually synchronize their living habits."
-    "Here's to hoping that never happens."
+    "Here's to hoping that never happens. That can't happen every morning, i'll go kukoo."
     "People really can't drive in this city, can they ?"
     "And now he's flipping me off."
     "Probably heard me. Maybe not."
@@ -96,6 +96,10 @@ label start:
     "Measuring it with Witt was fun. That was ages ago."
     "..."
     "..."
+    "That 40 minute walk never gets easier, does it ?"
+    "I'm sweeting like a pig because of the bloody sun."
+    "No way i'm taking the bus though. That's a sketch i'm not suffering through once again."
+    ""
 
 
 
