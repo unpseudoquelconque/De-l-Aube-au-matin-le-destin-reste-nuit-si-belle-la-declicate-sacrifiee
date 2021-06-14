@@ -1,15 +1,15 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While processing the color property of anonymous style:
-  File "game/script.rpy", line 15, in script
-    l "Tu penses qu'il pionce encore ?"
-Exception: Color string u'c2B27B0' must be 3, 4, 6, or 8 hex digits long.
+While running game code:
+  File "game/script.rpy", line 78, in script
+    "Yogurt'll do just fine."
+IOError: Couldn't find file '219825__mattc90__creepy-classical-vinyl-glitched.mp3'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 15, in script
-    l "Tu penses qu'il pionce encore ?"
+  File "game/script.rpy", line 78, in script
+    "Yogurt'll do just fine."
   File "renpy/ast.py", line 715, in execute
     renpy.exports.say(who, what, *args, **kwargs)
   File "renpy/exports.py", line 1384, in say
@@ -24,40 +24,23 @@ Full traceback:
     rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
   File "renpy/display/core.py", line 3007, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
-  File "renpy/display/core.py", line 3418, in interact_core
-    root_widget.visit_all(lambda i : i.per_interact())
-  File "renpy/display/core.py", line 566, in visit_all
-    d.visit_all(callback, seen)
-  File "renpy/display/core.py", line 566, in visit_all
-    d.visit_all(callback, seen)
-  File "renpy/display/core.py", line 566, in visit_all
-    d.visit_all(callback, seen)
-  File "renpy/display/screen.py", line 437, in visit_all
-    self.child.visit_all(callback, seen=None)
-  File "renpy/display/core.py", line 566, in visit_all
-    d.visit_all(callback, seen)
-  File "renpy/display/core.py", line 566, in visit_all
-    d.visit_all(callback, seen)
-  File "renpy/display/core.py", line 566, in visit_all
-    d.visit_all(callback, seen)
-  File "renpy/display/core.py", line 566, in visit_all
-    d.visit_all(callback, seen)
-  File "renpy/display/core.py", line 568, in visit_all
-    callback(self)
-  File "renpy/display/core.py", line 3418, in <lambda>
-    root_widget.visit_all(lambda i : i.per_interact())
-  File "renpy/text/text.py", line 1673, in per_interact
-    if self.style.slow_abortable:
-  File "gen-static/styleclass.pxi", line 765, in renpy.styledata.styleclass.Style.slow_abortable.__get__
-  File "style.pyx", line 493, in renpy.style.StyleCore._get
-  File "style.pyx", line 709, in renpy.style.build_style
-  File "style.pyx", line 706, in renpy.style.build_style
-  File "gen-static/style_functions.pyx", line 759, in style_functions.color_property
-  File "renpy/color.py", line 159, in __new__
-    raise Exception("Color string {!r} must be 3, 4, 6, or 8 hex digits long.".format(c))
-Exception: Color string u'c2B27B0' must be 3, 4, 6, or 8 hex digits long.
+  File "renpy/display/core.py", line 3700, in interact_core
+    renpy.audio.audio.periodic()
+  File "renpy/audio/audio.py", line 1101, in periodic
+    raise_(exc[0], exc[1], exc[2])
+  File "renpy/audio/audio.py", line 1079, in periodic_thread_main
+    periodic_pass()
+  File "renpy/audio/audio.py", line 1021, in periodic_pass
+    c.periodic()
+  File "renpy/audio/audio.py", line 487, in periodic
+    topf = load(self.file_prefix + filename + self.file_suffix)
+  File "renpy/audio/audio.py", line 69, in load
+    rv = renpy.loader.load(fn)
+  File "renpy/loader.py", line 798, in load
+    raise IOError("Couldn't find file '%s'." % name)
+IOError: Couldn't find file '219825__mattc90__creepy-classical-vinyl-glitched.mp3'.
 
 Windows-10-10.0.19041
 Ren'Py 7.4.2.1292
-De l Aube au matin le destin reste nuit si belle la declicate sacrifiee 1.0
-Mon Jun  7 15:55:02 2021
+De l'Aube au matin le destin reste nuit si belle la delicate sacrifiee 0.001
+Sun Jun 13 01:08:55 2021

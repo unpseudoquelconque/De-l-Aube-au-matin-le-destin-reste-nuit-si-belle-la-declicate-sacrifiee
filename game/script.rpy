@@ -10,23 +10,30 @@ define b = Character('Witt', color="#99938E")
 define c = Character('Goras', color="#9B1C99")
 define d = Character('Leuze', color="#0A074D")
 define e = Character('Rendt', color="#c8ffc8")
+define f = Character('Noza', color="#AED6F1")
 define l = Character('Heid', color="#E43009")
 define r = Character('?', color="095BE4")
 
 # Le jeu commence ici
 label start:
     scene opening night
-    r "The roots flew confidently through the haze of twilight."
+    r "Once again, the willow ascends, leaping to a higher ground."
+    r "But no leaves may leave."
+    r "As it leaves slowly wither away, only a frail trunk remains."
+    r "But the trunk shrunk."
+    r "The roots flies confidently through the haze of twilight."
     l "Think he's still sleeping ?"
     e "Considering how much of a slack he is, wouldn't surprise me."
     l "Wether you're surprised or not, he's still the one with the keys"
     scene dirty dream
+    with Dissolve(.5)
     r "Look at it, seeping into the clouds."
     e "Fuck it. I'll just break down the door. He'll pay for it anyway."
     l "Please don't. I don't want to end up on the dean's list."
     l "Let's just hope he'll wake up before classes"
     r "Slowly the wool dries as they leave for a new home."
     r "Ah, will this despicable roaming ever cease ?"
+    # Choix 1
     r "You can hear the lock slowly giving away, drawing you further away from the dream."
     r "Maybe next time, you'll be able to partake in its joyful beauty..."
     "Those idiots are at it again, aren't they ?"
@@ -34,7 +41,7 @@ label start:
     "The room is ripe with what amount to a lot of garbage."
     "THEIR garbage. One they are quite keen on getting back apparently"
     "Well I'm not opening. I'm through with opening doors."
-    "Ahaha how the mighty have fallen. All hail the new king."
+    "Ahaha, how the mighty have fallen. All hail the new king."
     "   "
     "Shit she's gonna destroy my door."
     e "Well if it isn't our very own shitface master"
@@ -61,7 +68,7 @@ label start:
     "I'll have you know I was close to nothing less than a discussion with God !"
     "And now its ruined because of you two noisy bastards."
     "They've left haven't they ?"
-    "Well having my thoughts all to myself once again is always a plus."
+    "Having my thoughts all to myself once again is always a plus."
     "Still don't want to open my eyes though."
     "    "
     "Actually what time is it ?"
@@ -70,8 +77,9 @@ label start:
     "I should really check."
     "    "
     "Let's just wake up."
-    "Its raining outside but I can't hear it. Once again, technology has failed us."
+    "It's raining outside but I can't hear it. Once again, technology has failed us."
     "Is there anything in the fridge ?"
+    play music "219825__mattc90__creepy-classical-vinyl-glitched.mp3" fadein 1.0
     "Yogurt'll do just fine."
     "Maybe the earth IS flat. But then, how would its corners be defined ? Maybe there's a wall, but that would allow for some cracks. Then again, maybe those cracks do exist and might explain some environnemental transformations"
     "Shit, Goras is awake. I need to get out of there, quick."
@@ -85,6 +93,7 @@ label start:
     "Oh no it's happening again. I do love me some bacon and egg. They all want me dead, all the normies with their silly hat and dumb woky idea. My mother is dead. FUCK THAT HURT BLOODY FUCKING TABLE. Let's cram a bit before the test."
     "finally a good night of sleep shit it's raining again what if time depended on rotation leuze just blocked me where is the number mom sent me I couldn't even attend the funeral i need to get stronger seven is pathetic like a fucking queer"
     "..."
+    stop music
     "..."
     "I need to find a house."
     "There was that theory that eventually every Soprani living in the same district will eventually synchronize their living habits."
@@ -94,20 +103,50 @@ label start:
     "Probably heard me. Maybe not."
     "My range seems to have somewhat grown over the years. How large was it when I graduated highschool ? Can't have been more than a meter radius."
     "Measuring it with Witt was fun. That was ages ago."
-    "..."
-    "..."
     "That 40 minute walk never gets easier, does it ?"
     "I'm sweeting like a pig because of the bloody sun."
-    "No way i'm taking the bus though. That's a sketch i'm not suffering through once again."
-    ""
-
-
-
-
-
-
-
-
+    "No way i'm taking the bus though. That's a joke i'm not suffering through again."
+    "Aaah, Vierzon, a delightful city of drunk drivers and somewhat drunker college nerds. True Paradise."
+    "Shit, it's question time for Lorfelin ! Okay cram let's cram. Although if we're lucky we'll be so late that doesn't matter."
+    "Let's bet on it. I'm about ten minutes behind schedule, and still got about a twenty minute walk 'till I arrive."
+    "Considering his class is two hours long, and that he trie to wait for full attendency before starting the exam, and never gets it."
+    "It's 50/50, isn't it. Well so much for that. Well I'm a lucky gal, so everything'll be dandy."
+    "Still, that dream was mighty weird."
+    "I should talk about it with that shrink Leuze advised me to see."
+    "Wait no that wasn't me. Ahahaha, everything's fine."
+    "Those \"Unité d'Habitation\" really are one of the worst post war trend. God they look ugly. Granted, Neo-Haussmanian architecture ain't much better."
+    "But since no one can afford it anyway, it's at least clean. For us, they just took a cool concept and thought no funding would be enough."
+    "And when it didn't payoff they sold it to the local universities for dirt cheap, which were happy to oblige since they were lacking in both dormitories and working space."
+    "Oh, I think that guy agrees with me, or thinks its cute to agree, and I need to FOCUS on the exam right now. God why do always end up spiraling out."
+    "Today's on the beginning of the war I think. Yeah let's go with that."
+    "4th generation Eugenosophia in 85E. Crumbling of the UN in 85F. Rise of the Neo-Utilitarianist Movement from 85B to 865. Kuradrot's speech in 86A."
+    "Oligarch's Ultimatum in 86C. Was it 6B ?"
+    "Yup that should be enough. We haven't even reached week 5, it's not like he's gonna through a really thorough test or anything."
+    "This building still looks like a giant fan. Time to see if I'm in luck today. Still going to need to go through equipment room first."
+    "And now for the fun part."
+    a "What a great honor it is for me to whisper my everythoughts in front of hundred of people."
+    a "What a truly blessed person I am. Please make it so that the elevator is still working. Rushing through the hall, rushing through the hall."
+    a "Shit that's Aris, isn't it ? God that's not good, can't let him see me like that. Let's just keep close to the wall and run."
+    a "No problem. No problem. No problem. It's on repair ? That's no good. 3 floor of hell for little me again."
+    a "That door is really hard to open. Why is that ? Are the joints creaky ? Anyway let's hurry up."
+    f "Hey I recognize that voice ! If it isn't the sweet, innocent Zara ?"
+    a "Heeey, how are you man ? Wanna take the stairs with me and keep this already incredible conversation going ?"
+    f "Oh but of course ! I'll even open the door for you if you want."
+    a "That would be quite helpful."
+    f "Then how are you dear ? Still trying for your free thinker apprenticeship ?"
+    a "It's not exactly been going great but I've still got time. And you, how are you ? I've heard you and Leuze were a thing now ? Is she as kinky as i heard ?"
+    f "Well she's quite a lot, but I'm no angel myself. It's a win-win arrangement really. Aside from that, the new theorems are coming nicely, so that's always a plus."
+    a "Oh yeah, your graduation isn't that far away, isn't it ? You think you're gonna rank high enough ?"
+    f "Well that's a bit of a touchy subject right now, let's not engage on it. Not that I'm completely fucked or anything, but my grade have been slowly going down, so the pressur has been mounting, and relationships are a lot more than I thought, and I've actually been on kind of a slump recently"
+    a "You'll find something, I'm sure. That's my stop right there, but I'm sure we'll meet again today. You can explain it all then."
+    f "Well, there's not a lot to say, but sure, I'd love to."
+    a "That's settled then. I'm gonna run though, I think I'm pretty late for Lorfelin's class..."
+    a "Seeeeeeeee youuuuuuu"
+    a "She does look really tired. What was even that shirt ? It looked like lampshade patchwork assembled by a drunk smith on a moonless night. And those eyes. That's not circles, milady, that's holes. I'm really petty today, aren't I ?"
+    a "And her hair was all wrong too. Focus. There's my locker. There's my noise canceler. There's my mask. Here we go."
+    a "Time to relax. Peace of mind and thoughts for the next five hours. I'm not even horny. Just extremely happy, as always."
+    a "Happy to take the stairs and ascend silently to the twelfth floor, since apparently Mr Elevator refuses to obtemperate."
+    a ""
 
 
 
