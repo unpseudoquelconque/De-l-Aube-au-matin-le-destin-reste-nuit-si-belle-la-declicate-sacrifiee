@@ -60,16 +60,16 @@ define gui.interface_text_color = u'#ffffff'
 ## Polices et tailles de police ################################################
 
 ## Les polices utilisées pour le texte du jeu.
-define gui.text_font = "DejaVuSans.ttf"
+define gui.text_font = "StintUltraCondensed-Regular.ttf"
 
 ## Les polices utilisées pour le nom des personnages.
-define gui.name_text_font = "DejaVuSans.ttf"
+define gui.name_text_font = "Monoton-Regular.ttf"
 
 ## Les polices utilisées pour les textes « hors du jeu ».
-define gui.interface_text_font = "DejaVuSans.ttf"
+define gui.interface_text_font = "Righteous-Regular.ttf"
 
 ## La taille normale pour les dialogues.
-define gui.text_size = 22
+define gui.text_size = 30
 
 ## La taille pour le nom des personnages.
 define gui.name_text_size = 30
@@ -90,8 +90,8 @@ define gui.title_text_size = 50
 ## Menu du jeu et menu principal ###############################################
 
 ## Les images utilisées pour le menu principal et le menu du jeu.
-define gui.main_menu_background = "gui/main_menu.png"
-define gui.game_menu_background = "gui/game_menu.png"
+define gui.main_menu_background = "gui/P10023762.JPG"
+define gui.game_menu_background = "gui/P10022162.JPG"
 
 
 ## Dialogue ####################################################################
@@ -485,6 +485,3 @@ init python:
 
         gui.nvl_button_width = 1240
         gui.nvl_button_xpos = 20
-
-
-

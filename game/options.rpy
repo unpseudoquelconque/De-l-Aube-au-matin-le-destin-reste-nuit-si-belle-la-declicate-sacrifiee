@@ -15,7 +15,7 @@
 ##
 ## La chaîne de caractère contenu dans _() est éligible à la traduction.
 
-define config.name = _("De l Aube au matin le destin reste nuit si belle la declicate sacrifiee")
+define config.name = _("De l'Aube au matin le destin reste nuit si belle la delicate sacrifiee")
 
 
 ## Détermine si le titre renseigné plus haut est affiché sur l'écran du menu
@@ -26,7 +26,7 @@ define gui.show_name = True
 
 ## La version du jeu.
 
-define config.version = "1.0"
+define config.version = "0.001"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
@@ -40,7 +40,7 @@ define gui.about = _p("""
 ## l’exécutable. Il ne doit contenir que des caractères ASCII et ne doit pas
 ## contenir d’espace, de virgules ou de points-virgules.
 
-define build.name = "DelAubeaumatinledestinrestenuitsibelleladeclicatesacrifiee"
+define build.name = "DelAubeaumatinledestinrestenuitsibelleladelicatesacrifiee"
 
 
 ## Sons et musiques ############################################################
