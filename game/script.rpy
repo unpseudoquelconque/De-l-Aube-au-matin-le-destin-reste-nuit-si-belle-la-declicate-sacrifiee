@@ -137,7 +137,8 @@ label start:
     a "It's not exactly been going great but I've still got time. And you, how are you ? I've heard you and Leuze were a thing now ? Is she as kinky as i heard ?"
     f "Well she's quite a lot, but I'm no angel myself. It's a win-win arrangement really. Aside from that, the new theorems are coming nicely, so that's always a plus."
     a "Oh yeah, your graduation isn't that far away, isn't it ? You think you're gonna rank high enough ?"
-    f "Well that's a bit of a touchy subject right now, let's not engage on it. Not that I'm completely fucked or anything, but my grade have been slowly going down, so the pressur has been mounting, and relationships are a lot more than I thought, and I've actually been on kind of a slump recently"
+    f "Well that's a bit of a touchy subject right now, let's not engage on it. Not that I'm completely fucked or anything, but my grade have been slowly going down"
+    f "So the pressur has been mounting, and relationships are a lot more than I thought, and I've actually been on kind of a slump recently"
     a "You'll find something, I'm sure. That's my stop right there, but I'm sure we'll meet again today. You can explain it all then."
     f "Well, there's not a lot to say, but sure, I'd love to."
     a "That's settled then. I'm gonna run though, I think I'm pretty late for Lorfelin's class..."
@@ -146,6 +147,7 @@ label start:
     a "And her hair was all wrong too. Focus. There's my locker. There's my noise canceler. There's my mask. Here we go."
     a "Time to relax. Peace of mind and thoughts for the next five hours. I'm not even horny. Just extremely happy, as always."
     a "Happy to take the stairs and ascend silently to the twelfth floor, since apparently Mr Elevator refuses to obtemperate."
+    a "They still haven't fixed that place haven't they. Someone's gonna fall someday."
     a ""
 
 
