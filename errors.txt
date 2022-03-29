@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 25: expected statement.
-    Fuck it. i'll just break down the door. He'll pay for it anyway.
-           ^
+File "game/script.rpy", line 116: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    "Y a un truc à manger dans le frigo ?"
+    ^
 
-Ren'Py Version: Ren'Py 7.4.2.1292
-Mon Jun  7 16:19:53 2021
+Ren'Py Version: Ren'Py 7.4.10.2178
+Fri Jan 14 23:32:00 2022
