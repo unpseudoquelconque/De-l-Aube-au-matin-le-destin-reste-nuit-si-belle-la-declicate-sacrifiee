@@ -1,4 +1,4 @@
-Fri Jan 14 23:31:17 2022
+Wed Apr 27 20:26:39 2022
 Windows-10-10.0.22000
 Ren'Py 7.4.10.2178
  
@@ -6,43 +6,18 @@ Ren'Py 7.4.10.2178
 Bootstrap to the start of init.init took 0.06s
 Early init took 0.00s
 Loader init took 0.03s
-Loading error handling took 0.03s
-Loading script took 0.14s
+Loading error handling took 0.04s
+Loading script took 0.28s
 Loading save slot metadata. took 0.06s
 Loading persistent took 0.00s
 
-File "game/script.rpy", line 102: indentation mismatch.
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start took 0.39s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce GTX 1060 with Max-Q Design/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 497.09'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1280, 720) drawable=(1280, 720)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 42.47s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.01s
-Loading script took 0.17s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 116: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
-    "Y a un truc à manger dans le frigo ?"
+File "game/script.rpy", line 292: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    return
     ^
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Interface start took 0.32s
+Interface start took 0.46s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -50,20 +25,20 @@ swap interval: 1 frames
 Windowed mode.
 Vendor: 'NVIDIA Corporation'
 Renderer: 'NVIDIA GeForce GTX 1060 with Max-Q Design/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 497.09'
+Version: '4.6.0 NVIDIA 512.15'
 Display Info: None
 Screen sizes: virtual=(1280, 720) physical=(1280, 720) drawable=(1280, 720)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init took 61.66s
+Bootstrap to the start of init.init took 25.58s
 Early init took 0.00s
 Loader init took 0.01s
 Loading error handling took 0.01s
-Loading script took 0.12s
+Loading script took 0.19s
 Loading save slot metadata. took 0.01s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.06s
+Running init code took 0.07s
 Loading analysis data took 0.02s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
@@ -75,10 +50,10 @@ Initial gc. took 0.02s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.25s
+Creating interface object took 0.27s
 Cleaning stores took 0.00s
 Init translation took 0.03s
-Build styles took 0.00s
+Build styles took 0.01s
 Load screen analysis took 0.01s
 Analyze screens took 0.01s
 Save screen analysis took 0.02s
@@ -95,73 +70,17 @@ swap interval: 1 frames
 Windowed mode.
 Vendor: 'NVIDIA Corporation'
 Renderer: 'NVIDIA GeForce GTX 1060 with Max-Q Design/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 497.09'
+Version: '4.6.0 NVIDIA 512.15'
 Display Info: None
 Screen sizes: virtual=(1280, 720) physical=(1280, 720) drawable=(1280, 720)
 Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 75, in script
-    r "En espérant que vous pourrez bientôt profiter de sa singulière majesté..." ( ???)
-  File "renpy/ast.py", line 707, in execute
-    args, kwargs = self.arguments.evaluate()
-  File "renpy/ast.py", line 191, in evaluate
-    args.append(renpy.python.py_eval(v, locals=scope))
-  File "renpy/python.py", line 2274, in py_eval
-    code = py_compile(code, 'eval')
-  File "renpy/python.py", line 835, in py_compile
-    raise e
-SyntaxError: invalid syntax (script.rpy, line 75)
-
-While running game code:
-  File "game/script.rpy", line 75, in script
-    r "En espérant que vous pourrez bientôt profiter de sa singulière majesté..." ( ???)
-SyntaxError: invalid syntax (script.rpy, line 75)
-Resetting cache.
-Bootstrap to the start of init.init took 88.94s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.01s
-Loading script took 0.13s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\paulj\\AppData\\Roaming/RenPy/backups\\De-l-Aube-au-matin-le-destin-reste-nuit-si-belle-la-declicate-sacrifiee':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.02s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.25s
 Cleaning stores took 0.00s
-Init translation took 0.03s
+Init translation took 0.00s
 Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
+Load screen analysis took 0.01s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
 Running _start took 0.00s
-Performance test:
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce GTX 1060 with Max-Q Design/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 497.09'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1280, 720) drawable=(1280, 720)
-Maximum texture size: 4096x4096
 Cleaning stores took 0.00s
 Init translation took 0.00s
 Build styles took 0.00s
